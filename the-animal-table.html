@@ -3,10 +3,29 @@
 <head>
 <meta charset="utf-8">
 <title>The Animal Table</title>
+<!-- et "embedded" style område -->
+<style type="text/css">
+	table {
+		width: 800px;
+		/*overskriver standard ramme på en tabel*/
+		border-collapse: collapse;
+		border: 1px solid #000000;
+	}	
+	
+	td {
+		border: 1px solid; #000000;
+		padding: 10px;
+	}
+	
+	th {
+		border: 1px solid; #000000;
+		padding: 10px;
+	}
+</style>
 </head>
 
 <body>
-<table width="800" border="1" cellpadding="10" cellspacing="0">
+<table>
   <caption>
   The animal table
   </caption>
